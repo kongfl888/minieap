@@ -40,6 +40,8 @@ extern "C" {
 		__BYTE_ORDER == __LITTLE_ENDIAN) || \
 	defined(CPU_IA32) || defined(CPU_X64) || \
 	defined(__ia64) || defined(__ia64__) || defined(__alpha__) || defined(_M_ALPHA) || \
+	defined(_MIPS) || defined(_MIPSEL) || defined(__MIPSEL)|| defined(MIPS64EL) || defined(_MIPS64EL) || defined(__MIPS64EL) || \
+	defined(_ARM64_) || defined(__arm64__) || \
 	defined(vax) || defined(MIPSEL) || defined(_ARM_) || defined(__arm__) || defined(__aarch64__)
 # define CPU_LITTLE_ENDIAN
 # define IS_BIG_ENDIAN 0
